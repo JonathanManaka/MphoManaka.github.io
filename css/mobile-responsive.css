@@ -1,0 +1,157 @@
+/*For mobile devices*/
+@media screen and (max-width: 767px) {
+  .nav-menu {
+    display: none;
+  }
+  body {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: var(--background-color);
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+  }
+
+  header .logo img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 15px;
+    left: 25px;
+  }
+  header {
+    background-color: var(--background-color);
+    height: 10%;
+
+    position: fixed;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+  }
+  section .welcome-container {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 50px;
+    left: 200px;
+  }
+  .profile-container {
+    position: relative;
+    top: 150px;
+    right: 200px;
+  }
+  .skills-container {
+    margin-top: 450px;
+  }
+  section .profile-container .my-pic {
+    width: 150px;
+    height: 150px;
+    right: 0px;
+    left: 40px;
+    bottom: 30px;
+    position: relative;
+    border-radius: 5px;
+  }
+  section .profile-container .stack-top {
+    object-fit: contain;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    bottom: 200px;
+    z-index: 1;
+  }
+  .introduction-desc {
+    width: 250px;
+  }
+  h1 {
+    font-size: 2rem;
+    color: var(--blue-color);
+  }
+  h2 {
+    font-size: 1.1rem;
+  }
+  .introduction-desc p {
+    font-size: 1rem;
+  }
+  .introduction-desc {
+    width: 330px;
+  }
+
+  .skills-image img {
+    height: 150px;
+    width: 150px;
+    position: relative;
+    right: 50px;
+  }
+  .skills-holder {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .skill-logo img {
+    width: 30px;
+    height: 30px;
+  }
+  .skills {
+    gap: 20px;
+  }
+  .skill-logo p {
+    font-size: 0.5rem;
+  }
+  .skill-title {
+    font-size: 0.7rem;
+    margin-left: 10px;
+  }
+  .my-skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .skills-container {
+    margin-top: 350px;
+  }
+  .contact-inner-flex-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .contact-inner-flex-box img {
+    width: 150px;
+    height: 150px;
+  }
+  form {
+    width: 320px;
+    height: 347px;
+  }
+  .message-btn-container img {
+    width: 15px;
+    height: 15px;
+  }
+  .footer {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  .footer {
+    background-image: url("/images/wave.svg");
+    padding-bottom: 50px;
+  }
+  .social-links-container img {
+    width: 10px;
+    height: 10px;
+  }
+  .social-links-container p {
+    font-size: 0.6rem;
+  }
+  .more-projects-links-container p,
+  .achivements-container p {
+    font-size: 0.5rem;
+  }
+}
