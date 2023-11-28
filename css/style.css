@@ -411,8 +411,9 @@ form .input-text {
   gap: 150px;
 }
 .footer {
-  background-image: url("/images/wave.svg");
+  background-image: url("images/wave.svg");
   padding-top: 80px;
+ 
 }
 
 .social-links-container p {
