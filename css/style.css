@@ -411,7 +411,7 @@ form .input-text {
   gap: 150px;
 }
 .footer {
-  background-image: url("../images/skills-image.svg");
+  background-image: url("https://github-production-user-asset-6210df.s3.amazonaws.com/48018676/286530242-82a8bfd4-e96f-498b-a56c-4c64ad30534c.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231129%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231129T090228Z&X-Amz-Expires=300&X-Amz-Signature=38407646373f1a3483f0abbf2ce7b5d7fbbd5fe3549da7541de963a1e1a22142&X-Amz-SignedHeaders=host&actor_id=48018676&key_id=0&repo_id=723703944");
 
   padding-top: 80px;
 }
