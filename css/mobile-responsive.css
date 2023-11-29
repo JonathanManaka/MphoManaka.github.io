@@ -154,4 +154,18 @@
   .achivements-container p {
     font-size: 0.5rem;
   }
+  .footer {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+  }
+  .footer {
+    background-image: url("../images/wave.svg");
+
+    padding-top: 80px;
+  }
 }
