@@ -510,3 +510,7 @@ nav .logo {
   cursor: pointer;
   text-transform: uppercase;
 }
+form input,
+textarea {
+  padding: 10px;
+}
