@@ -9,6 +9,8 @@
   --blue-color: #343d68;
   --background-color: #fcfcfc;
   --light-grey-PColor: #818080;
+
+  color-scheme: only light;
 }
 
 body {
