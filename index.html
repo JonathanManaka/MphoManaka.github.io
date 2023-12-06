@@ -6,32 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Mpho Manaka' Portfolio</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/mobile-responsive.css"/>
+    <link rel="stylesheet" href="css/responsive.css"/>
+    <script src="https://kit.fontawesome.com/2188d11929.js" crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
   </head>
 
   <body>
+
     <header class="header">
    
         <div class="logo">
           <a href="#"><img src="images/logo.svg" alt="Developer name logo" /></a>
         </div>
-        <nav class="nav-menu" id="nav-links">
-          <ul>
+        <nav>
+          <div class="openMenu"><i class="fa fa-bars"></i></div>
+          <ul class="mainMenu">
             <li><a href="#skills">Skills</a></li>
             <li>
-              
                 <a href="#project-section" class="project-li-a-tag">
                   <img src="images/project-icon.svg" alt="project-icon"/> <span>Projects</span></i>
                 </a>
-              
-              
             </li>
             <li><a href="#contact-section">Contact me</a></li>
+              <div class="closeMenu"><i class="fa fa-times"></i></div>
+              <span class="icons">
+          
+                 <a href="https://www.linkedin.com/in/mphojonathamanaka/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://wa.me/27789319360" target="_blank"> <i class="fab fa-whatsapp"></i></a>
+                 <a href="https://twitter.com/MphoManakaDev" target="_blank"> <i class="fab fa-twitter"></i></a>
+                <a href="https://github.com/JonathanManaka" target="_blank"><i class="fab fa-github"></i></a>
+                 <a href="mailto: mphomanaka91@gmail.com" target="_blank"> <i class="fa fa-envelope"></i></a>
+              </span>
           </ul>
-        
-          </a>
-        </nav>
+      </nav>
     </header>
     <main>
       <section id="welcome-section" class="welcome-section">
@@ -132,7 +139,7 @@
           </div>
           
         </div>
-              </section>
+      </section>
       <section id="contact-section" class="contact-section">
         <div class="contact-flex-box">
           <h2>Contact me</h2>
@@ -154,10 +161,10 @@
         
         <div class="social-links-container">
           <p>My social media links:</p>
-          <a href="#" class="social-icon first-social-icon"><img src="images/linkedin-svgrepo-com 1.svg"/></a>
-          <a href="#" class="social-icon"><img src="images/whatsapp-svgrepo-com 1.svg"/></a>
-          <a href="#" class="social-icon"><img src="images/twitter-svgrepo-com 1.svg"/></a>
-          <a href="#" class="social-icon"><img src="images/gmail-svgrepo-com 1.svg"/></a>
+          <a href="https://www.linkedin.com/in/mphojonathamanaka/" target="_blank" class="social-icon first-social-icon"><img src="images/linkedin-svgrepo-com 1.svg"/></a>
+          <a href="https://wa.me/27789319360" class="social-icon" target="_blank"><img src="images/whatsapp-svgrepo-com 1.svg"/></a>
+          <a href="https://twitter.com/MphoManakaDev" class="social-icon" target="_blank"><img src="images/twitter-svgrepo-com 1.svg"/></a>
+          <a href="mailto: mphomanaka91@gmail.com" class="social-icon" target="_blank"><img src="images/gmail-svgrepo-com 1.svg"/></a>
 
         </div>
         <div class="more-projects-links-container">
@@ -177,6 +184,6 @@
           </div>
       </div>
     </main>
-  
+  <script src="./app.js"></script>
   </body>
 </html>
