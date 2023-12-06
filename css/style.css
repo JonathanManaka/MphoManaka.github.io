@@ -249,6 +249,9 @@ h2 {
   background-position: center;
   background-repeat: no-repeat;
 }
+.card a p {
+  margin-top: 10px;
+}
 
 .project-grid {
   display: grid;
