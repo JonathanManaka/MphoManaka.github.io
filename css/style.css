@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 :root {
   --filter: contrast(700%);
@@ -154,6 +156,13 @@ section p .bold-name {
   justify-content: center;
   align-items: center;
 }
+.my-skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
 
 .skills-container p {
   color: #818080;
@@ -214,6 +223,9 @@ h2 {
 .project-section {
   width: 100%;
   padding: 20px;
+}
+.project-section .project-title {
+  margin-bottom: 20px;
 }
 .card {
   display: flex;
@@ -443,4 +455,58 @@ form .input-text {
 .achivement-links a {
   color: #1dd5d0;
   text-decoration: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .mainMenu {
+  display: flex;
+  list-style: none;
+}
+nav .mainMenu li a {
+  display: inline-block;
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 1rem;
+  transition: 0.2s ease;
+}
+nav .mainMenu li a:hover {
+  color: var(--red-color);
+}
+nav .openMenu {
+  font-size: 2rem;
+  margin: 20px;
+  display: none;
+  cursor: pointer;
+}
+nav .mainMenu .closeMenu,
+.icons i {
+  font-size: 2rem;
+  display: none;
+  cursor: pointer;
+}
+.fa-linkedin:hover {
+  color: rgb(0, 110, 255);
+}
+.fa-twitter:hover {
+  color: rgb(86, 154, 243);
+}
+.fa-whatsapp:hover {
+  color: rgb(0, 255, 106);
+}
+.fa-github:hover {
+  color: rgb(255, 123, 0);
+}
+.fa-envelope:hover {
+  color: var(--red-color);
+}
+nav .logo {
+  margin: 6px;
+  cursor: pointer;
+  text-transform: uppercase;
 }
