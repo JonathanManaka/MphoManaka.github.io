@@ -121,6 +121,9 @@
   .skills-container {
     margin-top: 350px;
   }
+  .card a p {
+    margin-top: 10px;
+  }
   .contact-inner-flex-box {
     display: flex;
     flex-direction: column;
